@@ -23,6 +23,11 @@ nav {
     z-index: 10;
 }
 
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
 .container {
     display: flex;
     list-style: none;
@@ -56,7 +61,6 @@ nav {
     outline: none;
     padding: 10px;
     cursor: pointer;
-    /* transition: all 0.3s ease-in; */
 }
 
 .btn-nav:hover {
@@ -162,7 +166,17 @@ nav {
 .btn-nav a:visited { 
     text-decoration: none; 
     color: #f7f7f7;
-   }
+}
+
+.btn-hero a{ 
+    text-decoration: none; 
+    color: #333333;
+}
+
+.btn-nav a{ 
+    text-decoration: none; 
+    color: #f7f7f7;
+}
 
 #wrapper-grid {
     display: grid;
@@ -243,6 +257,11 @@ nav {
 }
 
 .btn-article a:visited { 
+    text-decoration: none; 
+    color: #f7f7f7;
+}
+
+.btn-article a { 
     text-decoration: none; 
     color: #f7f7f7;
 }
